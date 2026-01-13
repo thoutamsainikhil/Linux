@@ -1,9 +1,18 @@
 pwd
+echo
 cd
-ll
-ll -ls
-ll -la
-ll -ltr
-ll -ltra
+ls
+ls -ls
+ls -la
+ls -ltr
+ls -lart
 mv <source><destianation>
 cp <source><destination>
+uname
+# -> Normal user
+$ -> Root user (sudo su-)
+exit
+clear
+cat >
+touch
+cat >>
