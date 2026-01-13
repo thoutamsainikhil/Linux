@@ -1,0 +1,9 @@
+pwd
+cd
+ll
+ll -ls
+ll -la
+ll -ltr
+ll -ltra
+mv <source><destianation>
+cp <source><destination>
