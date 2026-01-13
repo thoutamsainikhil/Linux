@@ -1,18 +1,97 @@
-pwd
-echo
-cd
-ls
-ls -ls
-ls -la
-ls -ltr
-ls -lart
-mv <source><destianation>
-cp <source><destination>
-uname
-# -> Normal user
-$ -> Root user (sudo su-)
-exit
-clear
-cat >
-touch
-cat >>
+List files/folders: ls [OPTIONS] [PATH]
+
+Long listing (details): ls -l [PATH]
+
+Show hidden files: ls -a [PATH]
+
+Current directory: pwd
+
+Change directory: cd [DIR]
+
+Go to home: cd ~
+
+Go up one level: cd ..
+
+Create empty file: touch FILE
+
+View file (full): cat FILE
+
+View file page-by-page: less FILE
+
+First N lines: head -n N FILE
+
+Last N lines: tail -n N FILE
+
+Follow logs live: tail -f FILE
+
+Create directory: mkdir [OPTIONS] DIR
+
+Create nested dirs: mkdir -p DIR1/DIR2
+
+Copy file: cp [OPTIONS] SRC DEST
+
+Copy folder: cp -r SRC_DIR DEST_DIR
+
+Move/rename: mv [OPTIONS] SRC DEST
+
+Delete file: rm [OPTIONS] FILE
+
+Delete folder (recursive): rm -r DIR
+
+Force delete (careful): rm -rf DIR
+
+Search text in files: grep [OPTIONS] "PATTERN" FILE
+
+Recursive search: grep -R "PATTERN" DIR
+
+Case-insensitive search: grep -i "PATTERN" FILE
+
+Find files by name: find PATH -name "PATTERN"
+
+Find by type (file/dir): find PATH -type f -name "PATTERN"
+
+File permissions (numeric): chmod 755 FILE_OR_DIR
+
+File permissions (symbolic): chmod u+x FILE
+
+Change owner: chown USER:GROUP FILE_OR_DIR
+
+Show processes: ps aux
+
+Search process: ps aux | grep NAME
+
+Kill by PID: kill PID
+
+Force kill: kill -9 PID
+
+Disk usage (filesystem): df -h
+
+Folder size: du -sh DIR
+
+Memory usage: free -h
+
+Show network config: ip a
+
+Test connectivity: ping -c 4 HOST
+
+DNS lookup: nslookup DOMAIN
+
+HTTP request test: curl -I URL
+
+Download file: wget URL
+
+View environment variable: echo $VAR
+
+Set variable (current session): export VAR="value"
+
+Command history: history
+
+Run as sudo: sudo COMMAND
+
+Switch user: su - USER
+
+Who am I: whoami
+
+Compress (tar.gz): tar -czf out.tar.gz DIR_OR_FILES
+
+Extract (tar.gz): tar -xzf out.tar.gz
